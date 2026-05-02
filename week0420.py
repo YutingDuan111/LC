@@ -205,7 +205,7 @@ class Solution(object):
             curr = roman[s[i]]
             if i+1 < len(s):
                 next_val = roman[s[i+1]] 
-            else 
+            else:
                 next_val = 0
             
             if curr < next_val:
@@ -216,5 +216,4 @@ class Solution(object):
         return result
 
 #17
-x
-
+# didn't understand the solution (backtracking)
